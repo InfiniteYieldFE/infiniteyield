@@ -237,7 +237,7 @@ do
             end
             return ("03 %02d"):format(G)
         end)(tonumber(os.date("%Y")))] = "🥚",
-        ["04 01"] = "🤡",
+        ["04 01"] = "🤡", createPopup("AMONG US JUMPSCARE AMONG US DIES TOMORROW!!\n\nidk april fools")
         ["10 31"] = "🎃",
         ["12 25"] = "🎄"
     }
