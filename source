@@ -243,6 +243,8 @@ do
 	})[os.date("%m %d")]
 	if emoji then
 		Title.Text = ("%s %s %s"):format(emoji, Title.Text, emoji)
+    end
+
 end
 
 Title.TextColor3 = Color3.new(1, 1, 1)
