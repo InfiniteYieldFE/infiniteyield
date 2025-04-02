@@ -242,8 +242,7 @@ do
 	})[os.date("%m %d")]
 	if emoji then
 		Title.Text = ("%s %s %s"):format(emoji, Title.Text, emoji)
-    end
-
+       end
 end
 
 Title.TextColor3 = Color3.new(1, 1, 1)
@@ -13037,13 +13036,9 @@ task.spawn(function()
 	if IsOnMobile then notify("Unstable Device", "On mobile, Infinite Yield may have issues or features that are not functioning correctly.") end
 end)
 
-	minimizeHolder()
- 	if IsOnMobile then notify("Unstable Device", "On mobile, Infinite Yield may have issues or features that are not functioning correctly.") end
- end)
- 
- if os.date("%m %d") == ["04 01"] = "🤡" then
- 	if math.random(1, 4) == 1 then
- 		createPopup("AMONG US JUMPSCARE AMONG US DIES TOMORROW!!\n\nidk april fools")
- 	end
- 	Title.Text = string.gsub(Title.Text, "Infinite Yield FE")
- end
+if os.date("%m %d") == ["04 01"] = "🤡" then
+	if math.random(1, 4) == 1 then
+		createPopup("AMONG US JUMPSCARE AMONG US DIES TOMORROW!!\n\nidk april fools")
+	end
+	Title.Text = string.gsub(Title.Text, "Infinite Yield FE", "fortnite hack")
+end
