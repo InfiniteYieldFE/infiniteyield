@@ -218,13 +218,6 @@ Title.TextSize = 18
 Title.Text = "Infinite Yield FE v" .. currentVersion
 
 do
-    if os.date("%m %d") == "04 01" then
-        if math.random(1, 4) == 1 then
-            createPopup("AMONG US JUMPSCARE AMONG US DIES TOMORROW!!\n\nidk april fools")
-        end
-        Title.Text = string.gsub(Title.Text, "Infinite Yield FE", "fortnite hack")
-    end
-
     local emojiMap = {
         ["01 01"] = "🎆",
         [(function(Year)
@@ -251,6 +244,13 @@ do
     local emoji = emojiMap[os.date("%m %d")]
     if emoji then
         Title.Text = ("%s %s %s"):format(emoji, Title.Text, emoji)
+    if os.date("%m %d") == "04 01" then
+        if math.random(1, 4) == 1 then
+            createPopup("AMONG US JUMPSCARE AMONG US DIES TOMORROW!!\n\nidk april fools")
+        end
+        Title.Text = string.gsub(Title.Text, "Infinite Yield FE", "fortnite hack")
+    end
+
     end
 end
 
